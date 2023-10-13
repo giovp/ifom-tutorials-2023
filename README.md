@@ -1,6 +1,15 @@
 # ifom-tutorials-2023
 
-`numcodecs` might have to be installed manually with conda
+The environemnt can be installed with the following:
 
-pip install SpaGCN
-pip install cell2location
+```bash
+conda create -n <name> python=3.9
+pip install jupyterlab scanpy, squidpy, scvit-tools, cell2location, SpaGCN, tangram-sc, spatialdata, napari-spatialdata
+conda install -c conda-forge napari pyqt 
+conda install PyYAML=5.4.1
+```
+
+alternatively via
+```bash
+conda create -f environment.yaml
+```
