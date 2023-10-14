@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 *.h5ad
+*.DS_Store
