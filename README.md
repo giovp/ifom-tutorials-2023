@@ -3,7 +3,7 @@
 The environemnt can be installed with the following:
 
 ```bash
-conda create -f spatial.yml
+conda env create -f spatial.yml
 ```
 
 alternatively via
